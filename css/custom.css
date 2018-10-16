@@ -1,0 +1,247 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 700;
+    color: #6c6e72;
+}
+p{
+    color:#636e72;
+    margin-bottom: 1rem;
+}
+img{
+    width: 100%;
+    
+}
+ul{
+    margin:0;
+    list-style: none;
+
+}
+input[type=text],
+input[type=button]{
+    background: #ECECEC;
+    color: #6c6e72;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+input[type=text]:focus,textarea:focus{
+    color: #6c6e72;
+    border: 1px solid #3498da;
+}
+::placeholder{
+    opacity: .6;
+}
+textarea{
+    background: #ECECEC;
+    color: #6c6e72;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 120px;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    resize: none;
+}
+
+.section{
+    margin-top: 6rem;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.img-container{
+    position: relative;
+    border-radius:50%;
+    border: 6px solid #fff;
+    max-width: 100px;
+    height: 100px;
+    margin-top: 9rem;
+    margin-left: auto;
+    margin-bottom: -5rem;
+    margin-right: auto;
+    overflow:hidden;
+    box-sizing: border-box;
+}
+
+.feedback-form{
+    background:#fff;
+    padding: 5rem 2rem 0 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.feedback-form h4{
+    text-align: center;
+    color: #3498da;
+}
+.feedback-form input[type=button]{
+    background: #3498da;
+    color: #e4f1fe;
+}
+.feedback-survey{
+    text-align: center;
+    color: #3498da;
+    max-width: 99%;
+    white-space: nowrap;
+}
+.feedback-survey label{
+    border-radius: 5px;
+    display: inline-block;
+    width: 33.333333%;
+    cursor: pointer;
+}
+.feedback-survey label input{
+    display: none;
+}
+.feedback-survey label span{
+    font-size: 5rem;
+    width: 100%;
+    padding-top: 1rem;
+    
+}
+.feedback-survey label span div{
+    margin: .5rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.feedback-survey label:hover{
+    background: #3498da;
+    color: #fff;
+}
+.survey:checked ~ span{
+    border-radius: 5px;
+    background: #3498da;
+    color: #fff;
+    
+}
+
+.feedback-comments{
+    display: none;
+    animation: fromtop 1s linear;
+    padding: 2rem;
+    background: #3498da;
+    border-radius: 15px;
+}
+.feedback-comments li{
+    font-family: 'Lato', sans-serif;
+    color: #6c6e72;
+    background: #fff;
+    overflow-wrap: break-word;
+    padding: 1rem;
+    margin-bottom:1rem;
+    border-radius: 6px;
+}
+.feedback-comments input[type="button"]{
+    background: #fff;
+    color: #3498da;
+    width: 100%;
+}
+.mood{
+    display: inline;
+    font-size: 1.4rem;
+    letter-spacing: -0.5px;
+}
+.happy{
+    color:#27ae60;
+}
+.sad{
+color: #c0392b;
+}
+.meh{
+color: #f39c12;
+}
+.datetime{
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.6;
+    
+}
+.list h4{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    color: #636e72;
+    margin: 0;
+}
+
+#thankyouModal{
+    display: none;
+}
+.motivation a{
+    font-weight: 700;
+    padding: 1rem;
+    background: #f39c12;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+.modal{
+    text-align: center;
+    padding: 2rem;
+    z-index: 1;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    position:fixed;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    animation: fromtop 1s linear;
+}
+.modal h3{
+    margin: 0;
+
+}
+.modal input[type=button]{
+    display:block;
+    margin: 0 auto;
+    background: #3498da;
+    color: #e4f1fe;
+}
+
+
+@keyframes fromtop{
+    from{
+       top: 0;opacity: 0; 
+    }
+    to{
+        top: 50%;opacity: 1;
+    }
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+/* Larger than tablet */
+@media (min-width: 850px) {
+    .section{
+        margin-top: 6rem;
+        width: 40%;
+    }
+    
+}
