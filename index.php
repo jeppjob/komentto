@@ -27,7 +27,7 @@
             <div id="feedback-form">
             <div class="img-container"><img src="./images/jc.png"></div>
             <div class="feedback-form ">
-               <form id="form" method="POST">
+               <form id="form" action="" method="POST">
                   <h4>How's the service?</h4>
                   <fieldset class="feedback-survey u-full-width">
                   <label><input type="radio" class="survey" name="survey" value="satisfied" checked><span class="far fa-smile-wink fa-5x"><div>Wooo</div></span></label>
