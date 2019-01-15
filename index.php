@@ -45,7 +45,7 @@
                <ul class="list" id="lol">
                <script></script>               
                   <?php
-                     require("comments.php");
+                     require("./comments.php");
                      ?>
                </ul>
                <input id="addNewComments" type="button" value="New Comment">
