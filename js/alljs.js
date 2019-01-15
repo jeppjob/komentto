@@ -19,7 +19,6 @@ $(document).ready(function() {
                 $("#thankyouModal").show();
                 $("#lol").html(data);
                 sortList(document.getElementsByClassName('list')[0]);
-
                 countList();
                 moodCheck();
                 $("#form")[0].reset();

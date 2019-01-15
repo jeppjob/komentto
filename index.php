@@ -15,16 +15,18 @@
       <section class="section">
          <div class="container">
              <!-- MODAL -->
-         <div id="thankyouModal" class="modal">
+             <div id="thankyouModal">
+         <div class="modal">
                <h3>THANK YOU!</h3>
                <p>Your feedback is highly <strong>appreciated!</strong></p>
                <input id="viewComments" type="button" value="View Comments">
                <div class="motivation"><p>--OR--</p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RM2GTR2H3LK2L" target="_blank">Send Motivation</a></div>
             </div>
+            </div>
             <!-- feedback form -->
             <div id="feedback-form">
             <div class="img-container"><img src="./images/jc.png"></div>
-            <div class="feedback-form">
+            <div class="feedback-form ">
                <form id="form" method="POST">
                   <h4>How's the service?</h4>
                   <fieldset class="feedback-survey u-full-width">

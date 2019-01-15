@@ -1,7 +1,6 @@
 body{
     font-family: 'Lato', sans-serif;
-    background-image: url("../images/bg.jpg");
-    background-size: cover;
+    background: rgba(151,214,255,1) ;
 }
 h1,
 h2,
@@ -180,6 +179,7 @@ color: #f39c12;
 
 #thankyouModal{
     display: none;
+    overflow: hidden;
 }
 .motivation a{
     font-weight: 700;
@@ -222,21 +222,7 @@ color: #f39c12;
         top: 50%;opacity: 1;
     }
 }
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 96%}
-    50%{background-position:100% 5%}
-    100%{background-position:0% 96%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 96%}
-    50%{background-position:100% 5%}
-    100%{background-position:0% 96%}
-}
-@keyframes AnimationName { 
-    0%{background-position:0% 96%}
-    50%{background-position:100% 5%}
-    100%{background-position:0% 96%}
-}
+
 /* Larger than tablet */
 @media (min-width: 850px) {
     .section{
